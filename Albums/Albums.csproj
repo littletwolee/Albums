@@ -65,9 +65,39 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\demo.css" />
+    <Content Include="css\fallback.css" />
+    <Content Include="css\googleapis.css" />
+    <Content Include="css\style.css" />
+    <Content Include="images\1.jpg" />
+    <Content Include="images\2.jpg" />
+    <Content Include="images\3.jpg" />
+    <Content Include="images\4.jpg" />
+    <Content Include="images\5.jpg" />
+    <Content Include="images\6.jpg" />
+    <Content Include="images\7.jpg" />
+    <Content Include="images\8.jpg" />
+    <Content Include="images\cover.jpg" />
+    <Content Include="images\fabric_plaid.png" />
+    <Content Include="images\ImageAttribution.txt" />
+    <Content Include="Index.aspx" />
+    <Content Include="js\core.string.js" />
+    <Content Include="js\jquery.flips.js" />
+    <Content Include="js\jquery.history.js" />
+    <Content Include="js\jquery.tmpl.min.js" />
+    <Content Include="js\jquery.touchSwipe-1.2.5.js" />
+    <Content Include="js\jquery_1.7.2.js" />
+    <Content Include="js\modernizr.custom.08464.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <PropertyGroup>
