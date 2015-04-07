@@ -38,21 +38,15 @@
     <body>
 		
 		<header class="main-title">
-			<h1><strong>印象云南</strong></h1>
-			<h3>苍山洱海旁 你在我身边</h3>
-			<h3>这次的夏天和从前不太一样</h3>
-            <h3>单车在经过田野 你轻轻唱</h3>
-            <h3>睁开了双眼只剩下相片</h3>
-            <h3>牵手走过的街道就在眼前</h3>
-            <h3>真的永远无法和你在一起</h3>
-            <h3>但我会微笑着想起远方的你</h3>
-            <h3>我真的只能唱歌给你听</h3>
+			<h1>Experimental Page Layout <strong>Inspired by Flipboard</strong></h1>
+			<p>Swipe or drag to flip the pages, click to open items </p>
+			<p><strong>Best viewed in a Webkit browser (Safari, Chrome)</strong></p>
 		</header>
 		
 		<div id="flip" class="container">
 		
 			<div class="f-page f-cover">
-				<%--<div class="cover-elements">
+				<div class="cover-elements">
 					<div class="logo">
 						Pageflip
 						<a class="f-ref" href="http://www.flickr.com/photos/nasahqphoto/">Images by NASA HQ Photo</a>
@@ -60,7 +54,7 @@
 					<h1>Spacy Flipping Pages with CSS3 &amp; jQuery <span>Inspired by <a href="http://flipboard.com/">Flipboard</a></span></h1>
 					<div class="f-cover-story"><span>Cover Story</span>Shuttle Enterprise Flight to New York</div>
 				</div>
-				<div class="f-cover-flip">&lt; Flip</div>--%>
+				<div class="f-cover-flip">&lt; Flip</div>
 			</div>
 			
 			<div class="f-page">
@@ -69,68 +63,85 @@
 					<h2>Incredible Spacenews</h2>
 					<a href="http://tympanus.net/codrops/2012/05/07/experimental-page-layout-inspired-by-flipboard/">Back to the Codrops Article</a>
 				</div>
-				<div class="box w-25 h-50">
+				<div class="box w-25 h-70">
 					<div class="img-cont img-1"></div>
-					<h3>蓝月谷</h3>
-					<p>蓝月谷，其前身为早前人们所熟知的“白水河”。在晴天时，水的颜色是蓝色的，而且山谷呈月牙形，远看就像一轮蓝色的月亮镶嵌在玉龙雪山脚下，所以名叫蓝月谷。而白水河这个名字是因为湖底的泥巴是白色的，下雨时水会变成白色，所以又叫白水河。蓝月谷中的河水在流淌过程中因受山体阻挡，形成了四个较大的水面，人称“玉液”湖、“镜潭”湖、“蓝月”湖和“听涛”湖。</p>
+					<h3>Japanese Prime Minister Noda with NASA Administrator Bolden <span>Published May 3, 2012</span></h3>
+					<p>Thundercats adipisicing marfa wes anderson farm-to-table, +1 vero yr ennui messenger bag occaecat williamsburg cosby sweater anim tattooed. Farm-to-table umami direct trade viral cosby sweater Austin. Magna tattooed irure, DIY do placeat helvetica sapiente laboris. Put a bird on it jean shorts wolf enim, viral authentic hoodie bespoke master cleanse proident. Ea pour-over swag wayfarers, Austin thundercats letterpress mollit 8-bit excepteur forage elit. Cupidatat minim dolore laborum whatever. Farm-to-table nihil tattooed, letterpress helvetica vegan semiotics pariatur pop-up. Helvetica ex godard selvage, sriracha echo park ut portland forage cardigan. Retro readymade williamsburg cliche laboris pinterest. Mollit aliqua direct trade, tumblr vegan lo-fi shoreditch semiotics sed 8-bit. Incididunt keffiyeh PBR cray, assumenda yr butcher nisi. Mustache brunch kogi, farm-to-table small batch odio fugiat consequat fap esse quinoa. Iphone banh mi brunch jean shorts sartorial, letterpress culpa direct trade master cleanse banksy fap whatever quinoa biodiesel. Portland eiusmod minim nihil Austin, sartorial aesthetic occupy tofu sriracha pitchfork seitan.</p>
 				</div>
-				<div class="box w-50 h-50 box-b-l box-b-r">
+				<div class="box w-50 h-70 box-b-l box-b-r">
 					<div class="img-cont img-2"></div>
-					<h3>大理古城</h3>
-					<p>大理古城简称叶榆，又称紫城，其历史可追溯至唐天宝年间，南诏王阁逻凤筑的羊苴咩城（今城之西三塔附近），为其新都。古城始建于明洪武十五年（公元1382年），方圆十二里，城墙高二丈五尺，厚二丈。东西南北各设一门，均有城楼，四角还有角楼。解放初，城墙均被拆毁。1982年，重修南城门，门头“大理”二字是集郭沫若书法而成。 由南城门进城，一条直通北门的复兴路，成了繁华的街市，沿街店铺比肩而设，出售大理石、扎染等民族工艺品及珠宝玉石。街巷间一些老宅，也仍可寻昔日风貌，庭院里花木扶疏，鸟鸣声声，户外溪渠流水淙淙。“三家一眼井，一户几盆花”的景象依然。</p>
+					<h3>Shuttle Enterprise Flight to New York <span>Published May 3, 2012</span></h3>
+					<p>Art party cillum et cosby sweater aliquip wolf photo booth thundercats dreamcatcher pickled banksy. Sustainable ex kogi, mumblecore mlkshk occupy mcsweeney's freegan laboris nisi stumptown street art labore food truck. Stumptown pariatur 8-bit, iphone quis ethical pitchfork portland vegan. Irony esse gluten-free, id fanny pack umami commodo. Godard bushwick narwhal, quinoa biodiesel veniam jean shorts minim portland aesthetic excepteur sapiente. Fanny pack aesthetic post-ironic chambray esse. Bespoke nesciunt fugiat aute pariatur craft beer, laborum ex. Helvetica ex godard selvage, sriracha echo park ut portland forage cardigan. Retro readymade williamsburg cliche laboris pinterest. Mollit aliqua direct trade, tumblr vegan lo-fi shoreditch semiotics sed 8-bit. Incididunt keffiyeh PBR cray, assumenda yr butcher nisi. Mustache brunch kogi, farm-to-table small batch odio fugiat consequat fap esse quinoa. Iphone banh mi brunch jean shorts sartorial, letterpress culpa direct trade master cleanse banksy fap whatever quinoa biodiesel. Portland eiusmod minim nihil Austin, sartorial aesthetic occupy tofu sriracha pitchfork seitan.</p>
 				</div>
-				<div class="box w-25 h-50">
+				<div class="box w-25 h-70">
 					<div class="img-cont img-3"></div>
-					<h3>白沙壁画</h3>
-					<p>著名的“丽江壁画”是明代纳西族社会大开放的产物，它的绘制从明初到清初，先后延续了300多年。明末清初，是丽江壁画繁荣鼎盛时期，距今已有五百年历史。</p>
+					<h3>Expedition 30 Landing <span>Published May 3, 2012</span></h3>
+					<p>Single-origin coffee ex fingerstache keytar labore adipisicing, synth umami wolf jean shorts. Next level high life selvage cillum. Cupidatat before they sold out ex, shoreditch accusamus kogi consectetur delectus gluten-free. Keffiyeh seitan ex, trust fund fugiat gluten-free sunt put a bird on it pinterest. Vegan aesthetic vero, ethnic bespoke before they sold out williamsburg ennui 8-bit proident synth marfa mcsweeney's trust fund photo booth. Sed velit dolor, cardigan shoreditch typewriter ea. Dolore nihil occaecat high life post-ironic, ennui chillwave tattooed craft beer umami. Helvetica ex godard selvage, sriracha echo park ut portland forage cardigan. Retro readymade williamsburg cliche laboris pinterest. Mollit aliqua direct trade, tumblr vegan lo-fi shoreditch semiotics sed 8-bit. Incididunt keffiyeh PBR cray, assumenda yr butcher nisi. Mustache brunch kogi, farm-to-table small batch odio fugiat consequat fap esse quinoa. Iphone banh mi brunch jean shorts sartorial, letterpress culpa direct trade master cleanse banksy fap whatever quinoa biodiesel. Portland eiusmod minim nihil Austin, sartorial aesthetic occupy tofu sriracha pitchfork seitan.</p>
 				</div>
-				<div class="box w-100 h-50 box-img-left title-top">
-                    <div class="img-cont img-4"></div>
-					<h3>泸沽湖</h3>
-					<p>泸沽湖位于滇川交界处，素有“高原明珠”之称，与抚仙湖一道成为云南仅有的两个水质达到Ⅰ类标准的高原深水湖泊。泸沽湖素有“高原明珠”之称。湖中各岛婷婷玉立，形态各异，林木葱郁，翠绿如画，身临其境，水天一色，清澈如镜，藻花点缀其间，缓缓滑行于碧波之上的猪槽船和徐徐飘浮于水天之间的摩梭民歌，使其更增添几分古朴、几分宁静，是一个远离嚣市，未被污染的处女湖。</p>
+				<div class="box w-50 h-30 box-b-r title-top">
+					<h3>NASA Begins Second Round of J-2X Testing <span>Published May 3, 2012</span></h3>
+					<p>Duis williamsburg irony proident vinyl. Irony stumptown magna nulla, nisi next level gentrify twee nostrud veniam retro tumblr forage. Gastropub wolf vegan hella, messenger bag next level keytar aliqua synth put a bird on it dolor exercitation iphone. Selvage tempor mollit kale chips carles. Ethnic irure master cleanse, carles non godard flexitarian. You probably haven't heard of them reprehenderit cillum ea post-ironic, delectus ut mlkshk chillwave sriracha single-origin coffee sunt. Dolore fixie do american apparel, kogi velit salvia VHS forage bespoke pariatur. Helvetica ex godard selvage, sriracha echo park ut portland forage cardigan. Retro readymade williamsburg cliche laboris pinterest. Mollit aliqua direct trade, tumblr vegan lo-fi shoreditch semiotics sed 8-bit. Incididunt keffiyeh PBR cray, assumenda yr butcher nisi. Mustache brunch kogi, farm-to-table small batch odio fugiat consequat fap esse quinoa. Iphone banh mi brunch jean shorts sartorial, letterpress culpa direct trade master cleanse banksy fap whatever quinoa biodiesel. Portland eiusmod minim nihil Austin, sartorial aesthetic occupy tofu sriracha pitchfork seitan.</p>
 				</div>
-				<%--<div class="box w-50 h-50 title-top">
+				<div class="box w-50 h-30 title-top">
 					<h3>NASA's Webb Flight Backplane Completed <span>Published May 3, 2012</span></h3>
 					<p>Qui trust fund artisan, ullamco jean shorts craft beer ad forage. Kale chips scenester stumptown fugiat, magna nostrud aliqua. Chambray nihil gastropub 3 wolf moon food truck, cillum leggings. Mumblecore do iphone umami pork belly. Enim banh mi ut consequat, mixtape bushwick portland leggings sustainable officia nulla. Tattooed cillum ex, cray letterpress locavore marfa synth organic etsy minim williamsburg exercitation twee. Single-origin coffee cillum nulla polaroid ethical, fugiat incididunt. Helvetica ex godard selvage, sriracha echo park ut portland forage cardigan. Retro readymade williamsburg cliche laboris pinterest. Mollit aliqua direct trade, tumblr vegan lo-fi shoreditch semiotics sed 8-bit. Incididunt keffiyeh PBR cray, assumenda yr butcher nisi. Mustache brunch kogi, farm-to-table small batch odio fugiat consequat fap esse quinoa. Iphone banh mi brunch jean shorts sartorial, letterpress culpa direct trade master cleanse banksy fap whatever quinoa biodiesel. Portland eiusmod minim nihil Austin, sartorial aesthetic occupy tofu sriracha pitchfork seitan.</p>
-				</div>--%>
+				</div>
 			</div>
 			
 			<div class="f-page">
-				<div class="box w-100 h-50 box-b-r title-top box-img-Top">
-					<div class="img-cont img-5"></div>
-					<h3>玉龙雪山</h3>
-					<p>玉龙雪山位于云南省丽江市玉龙纳西族自治县境内，丽江市区北面15公里外，玉龙雪山海拔5596米，是国家5A级风景名胜区、云南省级自然保护区。是北半球最南的大雪山。南北长35公里，东西宽13公里，面积960Km²，高山雪域风景位于海拔4000米以上，以险、奇、美、秀著称于世，随着时令和阴晴的变化，有时云蒸霞蔚，玉龙时隐时现；有时碧空如水，群峰晶莹耀眼；有时云带束腰，云中雪峰皎洁，云下岗峦碧翠；有时霞光辉映，雪峰如披红纱，娇艳无比。整个玉龙雪山集亚热带、温带及寒带的各种自然景观于一身，构成独特的“阳春白雪”主体景观。雨雪新晴之后，雪格外的白，松格外的绿，掩映生态，移步换形，很像是白雪和绿松在捉迷藏，蔚为奇观。</p>
+				<div class="f-title">
+					<a href="http://tympanus.net/Tutorials/CSS3FluidParallaxSlideshow/">Previous Demo</a>
+					<h2>Incredible Spacenews</h2>
+					<a href="http://tympanus.net/codrops/2012/05/07/experimental-page-layout-inspired-by-flipboard/">Back to the Codrops Article</a>
 				</div>
-				<%--<div class="box w-30 h-50 title-top box-img-Top">
-					<div class="img-cont img-6"></div>
+				<div class="box w-70 h-50 box-b-r title-top box-img-left">
+					<div class="img-cont img-4"></div>
+					<h3>Expedition 30 Astronaut back on Earth <span>Published May 3, 2012</span></h3>
+					<p>Consectetur locavore brooklyn dreamcatcher, aesthetic anim dolor put a bird on it semiotics godard pork belly forage. VHS veniam aliqua thundercats dolore keffiyeh, direct trade authentic PBR eiusmod. Dolore veniam fanny pack, proident iphone mixtape irure sed. Lo-fi leggings stumptown cardigan etsy, pitchfork echo park terry richardson next level labore proident. Messenger bag cillum squid scenester, before they sold out dolor nostrud ad bicycle rights. Ut ex bicycle rights, wes anderson thundercats duis synth gluten-free hoodie twee. Four loko artisan viral, letterpress dreamcatcher twee yr cray vegan enim photo booth 3 wolf moon. Id veniam mustache squid, cliche terry richardson organic quis dreamcatcher skateboard. Chambray before they sold out yr, iphone street art ut locavore squid placeat you probably haven't heard of them small batch. Cred proident occaecat wolf, fixie letterpress est biodiesel kogi gentrify. Artisan +1 culpa, bicycle rights trust fund direct trade consectetur gentrify synth pariatur twee delectus consequat wayfarers deserunt. Helvetica ex godard selvage, sriracha echo park ut portland forage cardigan. Retro readymade williamsburg cliche laboris pinterest. Mollit aliqua direct trade, tumblr vegan lo-fi shoreditch semiotics sed 8-bit. Incididunt keffiyeh PBR cray, assumenda yr butcher nisi. Mustache brunch kogi, farm-to-table small batch odio fugiat consequat fap esse quinoa. Iphone banh mi brunch jean shorts sartorial, letterpress culpa direct trade master cleanse banksy fap whatever quinoa biodiesel. Portland eiusmod minim nihil Austin, sartorial aesthetic occupy tofu sriracha pitchfork seitan.</p>
+				</div>
+				<div class="box w-30 h-50">
+					<div class="img-cont img-5"></div>
 					<h3>Space Shuttle Discovery Ready For Demate <span>Published May 3, 2012</span></h3>
 					<p>Ethical 3 wolf moon sartorial nihil consequat twee, officia banh mi scenester carles vero thundercats. Keffiyeh mlkshk cliche craft beer, sartorial bespoke flexitarian helvetica consequat. Echo park organic nihil nostrud brooklyn scenester, delectus bushwick est narwhal sriracha. Chambray terry richardson direct trade, tumblr keffiyeh semiotics minim post-ironic. Sapiente nostrud banksy in nisi, lo-fi kale chips polaroid retro. 8-bit you probably haven't heard of them bespoke cred portland trust fund yr dolore sed. Art party quis street art american apparel lomo. Helvetica ex godard selvage, sriracha echo park ut portland forage cardigan. Retro readymade williamsburg cliche laboris pinterest. Mollit aliqua direct trade, tumblr vegan lo-fi shoreditch semiotics sed 8-bit. Incididunt keffiyeh PBR cray, assumenda yr butcher nisi. Mustache brunch kogi, farm-to-table small batch odio fugiat consequat fap esse quinoa. Iphone banh mi brunch jean shorts sartorial, letterpress culpa direct trade master cleanse banksy fap whatever quinoa biodiesel. Portland eiusmod minim nihil Austin, sartorial aesthetic occupy tofu sriracha pitchfork seitan.</p>
-				</div>--%>
-				<div class="box w-30 h-50 title-top box-img-left">
-                    <div class="img-cont img-6"></div>
-					<p>玉龙雪山位于云南省丽江市玉龙纳西族自治县，是中国最南的雪山，也是横断山脉的沙鲁里山南段的名山，北半球最南的大雪山。南北长35公里，东西宽13公里，面积525平方公里，高山雪域风景位于海拔4000米以上， 以险、奇、美、秀著称于世，云下岗峦碧翠；有时霞光辉映，雪峰如披红纱，娇艳无比。山上山脚温差大，地被迥异，生意索然到生机勃勃，判若两个世界。</p>
+				</div>
+				<div class="box w-30 h-50 box-b-r title-top">
+					<h3>Black Hole Caught Red-Handed in a Stellar Homicide <span>Published May 3, 2012</span></h3>
+					<p>Salvia +1 pork belly cosby sweater, lo-fi wolf tattooed VHS. Before they sold out dolore cray flexitarian et VHS +1 trust fund. Typewriter squid fap aute wolf 3 wolf moon, vice cillum street art. Austin organic gluten-free, ex cosby sweater odio squid. Iphone high life sriracha, +1 cupidatat assumenda shoreditch exercitation wayfarers. Aesthetic selvage nesciunt ennui. Nisi anim single-origin coffee, ullamco bushwick delectus fanny pack marfa tumblr cliche. Helvetica ex godard selvage, sriracha echo park ut portland forage cardigan. Retro readymade williamsburg cliche laboris pinterest. Mollit aliqua direct trade, tumblr vegan lo-fi shoreditch semiotics sed 8-bit. Incididunt keffiyeh PBR cray, assumenda yr butcher nisi. Mustache brunch kogi, farm-to-table small batch odio fugiat consequat fap esse quinoa. Iphone banh mi brunch jean shorts sartorial, letterpress culpa direct trade master cleanse banksy fap whatever quinoa biodiesel. Portland eiusmod minim nihil Austin, sartorial aesthetic occupy tofu sriracha pitchfork seitan.</p>
 				</div>
 				<div class="box w-70 h-50 title-top box-img-left">
-					<div class="img-cont img-7"></div>
-					<h3>洱海</h3>
-					<p>洱海早在汉代它已名载史册。公元前122年，张骞出使西域回到长安，在向汉武帝汇报西域情况时，他说在大夏国(今阿富汗)曾看到蜀布，经了解是从身毒(印度)贩运去的。他极力进言：从蜀郡通身毒，道路近便，有利无害。根据张骞的建议，汉武帝派使者到西南夷寻求通身毒之路。道路都为洱海附近的昆明族所阻，最终未能通身毒。公元前120年，汉武帝因使者阻于昆明族之事，征调人力在首都长安开挖了一个人工湖，名之为“昆明湖”，训练水军，准备征讨洱海地区的昆明族。当然，汉武帝征服云南高原其在长安“昆明湖”训练的水军不可能派上用场。但是，这段“汉习楼船”的典故却永留在司马迁的《史记》中。后来，清朝乾隆皇帝因景仰汉武帝开疆托土的功业，把北京颐和园西湖也改名为“昆明湖”。</p>
-                    <p>历史上就有“享渔沟之饶，据淤田之利”记载，三角洲东西两侧有水草丛生的浅湖湾，为鱼类繁衍生息的良好场所，历来水产丰富，当地称为“鱼土锅”。据《西洱海志》云：洱海“鱼族颇多，视他水所出较美，冬卿甲于诸郡。魏武帝四时食制曰：“滇池纫鱼，冬至极美”。</p>
-                    <p>从空中往下看，洱海宛如一轮新月，静静地依卧在苍山和大理坝子之间。洱海共有3岛、4洲、5湖、9曲。洱海属断层陷落湖泊，湖水清澈见底，透明度很高，自古以来一直被称作“群山间的无瑕美玉”。</p>
+					<div class="img-cont img-6"></div>
+					<h3>Space Station Trio Lands Safely In Kazakhstan <span>Published May 3, 2012</span></h3>
+					<p>Consectetur locavore brooklyn dreamcatcher, aesthetic anim dolor put a bird on it semiotics godard pork belly forage. VHS veniam aliqua thundercats dolore keffiyeh, direct trade authentic PBR eiusmod. Dolore veniam fanny pack, proident iphone mixtape irure sed. Lo-fi leggings stumptown cardigan etsy, pitchfork echo park terry richardson next level labore proident. Messenger bag cillum squid scenester, before they sold out dolor nostrud ad bicycle rights. Ut ex bicycle rights, wes anderson thundercats duis synth gluten-free hoodie twee. Four loko artisan viral, letterpress dreamcatcher twee yr cray vegan enim photo booth 3 wolf moon. Semiotics mlkshk anim sustainable butcher tempor. Odio single-origin coffee raw denim consequat mcsweeney's retro bespoke. Vero voluptate minim, letterpress accusamus twee farm-to-table pariatur cray.  Helvetica ex godard selvage, sriracha echo park ut portland forage cardigan. Retro readymade williamsburg cliche laboris pinterest. Mollit aliqua direct trade, tumblr vegan lo-fi shoreditch semiotics sed 8-bit. Incididunt keffiyeh PBR cray, assumenda yr butcher nisi. Mustache brunch kogi, farm-to-table small batch odio fugiat consequat fap esse quinoa. Iphone banh mi brunch jean shorts sartorial, letterpress culpa direct trade master cleanse banksy fap whatever quinoa biodiesel. Portland eiusmod minim nihil Austin, sartorial aesthetic occupy tofu sriracha pitchfork seitan.</p>
 				</div>
 			</div>
 			
 			<div class="f-page">
-				<div class="box w-25 h-100 ">
-                    <div class="maximg-cont img-7"></div>
+				<div class="f-title">
+					<a href="http://tympanus.net/Tutorials/CSS3FluidParallaxSlideshow/">Previous Demo</a>
+					<h2>Incredible Spacenews</h2>
+					<a href="http://tympanus.net/codrops/2012/05/07/experimental-page-layout-inspired-by-flipboard/">Back to the Codrops Article</a>
 				</div>
-				<div class="box w-50 h-50 title-top">
-                    <div class="img-cont img-8"></div>
+				<div class="box w-30 h-60 box-b-r title-top">
+					<h3>NASA Statement on John Glenn Selection for Medal of Freedom <span>Published May 3, 2012</span></h3>
+					<p>Accusamus yr gluten-free id. Ennui occupy scenester polaroid, incididunt VHS minim sustainable skateboard aute cillum retro. Odd future gluten-free excepteur retro, biodiesel jean shorts minim nisi. Mlkshk hoodie next level pop-up 8-bit. Butcher scenester aliqua, tumblr nisi mcsweeney's PBR pork belly bespoke keytar cillum laboris swag pitchfork. Fugiat et eu american apparel truffaut brooklyn minim. Incididunt quis pickled, chillwave +1 odio dolore freegan est pop-up before they sold out twee cliche echo park ut. In high life swag tofu ethnic 8-bit, seitan pinterest DIY lomo post-ironic. Helvetica ex godard selvage, sriracha echo park ut portland forage cardigan. Retro readymade williamsburg cliche laboris pinterest. Mollit aliqua direct trade, tumblr vegan lo-fi shoreditch semiotics sed 8-bit. Incididunt keffiyeh PBR cray, assumenda yr butcher nisi. Mustache brunch kogi, farm-to-table small batch odio fugiat consequat fap esse quinoa. Iphone banh mi brunch jean shorts sartorial, letterpress culpa direct trade master cleanse banksy fap whatever quinoa biodiesel. Portland eiusmod minim nihil Austin, sartorial aesthetic occupy tofu sriracha pitchfork seitan.</p>
 				</div>
-                <div class="box w-50 h-50 title-top">
-                    <div class="img-cont img-9"></div>
+				<div class="box w-70 h-60 box-img-left title-top">
+					<div class="img-cont img-7"></div>
+					<h3>Legendary Astronaut Shannon Lucid Retires From NASA <span>Published May 3, 2012</span></h3>
+					<p>Wes anderson trust fund organic pour-over, aute authentic high life fanny pack enim. Ethnic mumblecore salvia, letterpress minim velit fugiat sartorial beard mixtape vice ad. Farm-to-table aute cred cosby sweater sed, dolore pork belly pinterest keytar 3 wolf moon mustache. Vice thundercats pour-over, lo-fi echo park accusamus ullamco adipisicing selvage street art you probably haven't heard of them etsy. Readymade bushwick mumblecore whatever aesthetic, do nesciunt direct trade proident culpa. Vegan you probably haven't heard of them hoodie adipisicing qui, voluptate Austin stumptown photo booth sed. Mixtape excepteur locavore eu, labore sustainable nisi tofu narwhal fanny pack VHS nulla aliqua. Beard velit street art aute sartorial. Sapiente pitchfork polaroid, fugiat ea DIY williamsburg forage officia sint occaecat. Gentrify exercitation cray marfa, blog biodiesel readymade aliquip beard placeat raw denim stumptown. Austin photo booth accusamus et semiotics. Messenger bag ethical direct trade ullamco jean shorts. Selvage authentic seitan direct trade delectus butcher, mollit occupy cillum photo booth banksy proident gentrify commodo vice. Retro qui cray whatever. Helvetica ex godard selvage, sriracha echo park ut portland forage cardigan. Retro readymade williamsburg cliche laboris pinterest. Mollit aliqua direct trade, tumblr vegan lo-fi shoreditch semiotics sed 8-bit. Incididunt keffiyeh PBR cray, assumenda yr butcher nisi. Mustache brunch kogi, farm-to-table small batch odio fugiat consequat fap esse quinoa. Iphone banh mi brunch jean shorts sartorial, letterpress culpa direct trade master cleanse banksy fap whatever quinoa biodiesel. Portland eiusmod minim nihil Austin, sartorial aesthetic occupy tofu sriracha pitchfork seitan.</p>
 				</div>
-                <div class="box w-25 h-100">
-                    <div class="img-cont img-10"></div>
+				<div class="box w-40 h-40 box-img-left box-b-r title-top">
+					<div class="img-cont img-8"></div>
+					<h3>Coverage Set For Next Soyuz Space Station Crew Rotation <span>Published May 3, 2012</span></h3>
+					<p>Mcsweeney's pitchfork chambray tattooed four loko, commodo nesciunt lo-fi dreamcatcher mixtape eu occaecat vinyl cupidatat. Delectus selvage gentrify, commodo fingerstache jean shorts sriracha you probably haven't heard of them aesthetic. Bespoke nulla eiusmod deserunt, qui 8-bit +1 high life proident dolor small batch accusamus laborum ethical. In high life swag tofu ethnic 8-bit, seitan pinterest DIY lomo post-ironic. American apparel fingerstache portland, lomo thundercats small batch velit quis letterpress. Dolore iphone accusamus pitchfork authentic. Qui narwhal voluptate, street art keffiyeh non laborum. Helvetica ex godard selvage, sriracha echo park ut portland forage cardigan. Retro readymade williamsburg cliche laboris pinterest. Mollit aliqua direct trade, tumblr vegan lo-fi shoreditch semiotics sed 8-bit. Incididunt keffiyeh PBR cray, assumenda yr butcher nisi. Mustache brunch kogi, farm-to-table small batch odio fugiat consequat fap esse quinoa. Iphone banh mi brunch jean shorts sartorial, letterpress culpa direct trade master cleanse banksy fap whatever quinoa biodiesel. Portland eiusmod minim nihil Austin, sartorial aesthetic occupy tofu sriracha pitchfork seitan.</p>
+				</div>
+				<div class="box w-30 h-40 box-b-r title-top">
+					<h3>Shuttle Enterprise to Fly Over New York City Metro Area April 23 <span>Published May 3, 2012</span></h3>
+					<p>Authentic put a bird on it mustache magna. Terry richardson dolor vero, magna odio synth letterpress umami brunch vice craft beer Austin. Velit mcsweeney's consequat wes anderson. Yr eu minim id. Pinterest odio keytar, irony bushwick pickled delectus placeat 3 wolf moon trust fund. Small batch mixtape carles chambray aute pop-up reprehenderit, portland magna skateboard vero dreamcatcher. Id artisan twee tempor excepteur pitchfork. Helvetica ex godard selvage, sriracha echo park ut portland forage cardigan. Retro readymade williamsburg cliche laboris pinterest. Mollit aliqua direct trade, tumblr vegan lo-fi shoreditch semiotics sed 8-bit. Incididunt keffiyeh PBR cray, assumenda yr butcher nisi. Mustache brunch kogi, farm-to-table small batch odio fugiat consequat fap esse quinoa. Iphone banh mi brunch jean shorts sartorial, letterpress culpa direct trade master cleanse banksy fap whatever quinoa biodiesel. Portland eiusmod minim nihil Austin, sartorial aesthetic occupy tofu sriracha pitchfork seitan.</p>
+				</div>
+				<div class="box w-30 h-40 title-top">
+					<h3>Top Scientist and Technologist Discuss What's Next for NASA <span>Published May 3, 2012</span></h3>
+					<p>Nisi anim raw denim, occupy seitan magna selvage pork belly leggings gluten-free. Street art consequat aliquip, echo park helvetica enim pariatur fanny pack aesthetic et laboris pickled jean shorts ethical. Austin pop-up next level esse, retro quinoa locavore mollit etsy elit nesciunt quis salvia beard. Quis magna consequat selvage, ullamco commodo exercitation. VHS polaroid fugiat quis gastropub, cosby sweater aliquip aesthetic velit jean shorts swag. Put a bird on it etsy pork belly synth nisi, pitchfork wes anderson semiotics cliche ea. Cliche officia cosby sweater ullamco, quis stumptown est blog vinyl pork belly. Helvetica ex godard selvage, sriracha echo park ut portland forage cardigan. Retro readymade williamsburg cliche laboris pinterest. Mollit aliqua direct trade, tumblr vegan lo-fi shoreditch semiotics sed 8-bit. Incididunt keffiyeh PBR cray, assumenda yr butcher nisi. Mustache brunch kogi, farm-to-table small batch odio fugiat consequat fap esse quinoa. Iphone banh mi brunch jean shorts sartorial, letterpress culpa direct trade master cleanse banksy fap whatever quinoa biodiesel. Portland eiusmod minim nihil Austin, sartorial aesthetic occupy tofu sriracha pitchfork seitan.</p>
 				</div>
 			</div>
 			
