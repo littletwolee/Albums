@@ -57,12 +57,18 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="music\ysj.mp3" />
+    <Content Include="music\byp.OGG" />
+    <None Include="Properties\PublishProfiles\Albums.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="music\byp.mp3" />
+    <Content Include="music\whxqn.OGG" />
+    <Content Include="music\ysj.OGG" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\demo.css" />
@@ -101,6 +107,7 @@
     <Content Include="js\jquery_1.7.2.js" />
     <Content Include="js\modernizr.custom.08464.js" />
     <Content Include="Web.config" />
+    <Content Include="music\whxqn.mp3" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Index.aspx.cs">

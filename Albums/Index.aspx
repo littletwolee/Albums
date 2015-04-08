@@ -15,6 +15,7 @@
 		<link rel='stylesheet' type='text/css' href="css/googleapis.css">
         <link rel="stylesheet" type="text/css" href="css/demo.css" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link href="css/fg.css" rel="stylesheet" />
 		<script type="text/javascript" src="js/modernizr.custom.08464.js"></script>
 		<script id="pageTmpl" type="text/x-jquery-tmpl">
 			<div class="${theClass}" style="${theStyle}">
@@ -120,18 +121,21 @@
 			</div>
 			
 			<div class="f-page">
-				<div class="box w-25 h-100 ">
-                    <div class="maximg-cont img-7"></div>
-				</div>
-				<div class="box w-50 h-50 title-top">
-                    <div class="img-cont img-8"></div>
-				</div>
-                <div class="box w-50 h-50 title-top">
-                    <div class="img-cont img-9"></div>
-				</div>
-                <div class="box w-25 h-100">
-                    <div class="img-cont img-10"></div>
-				</div>
+                <div id="wrapper">
+                    <div id="carousel">
+                        <div>
+                            <img src="images/sp-colorado-is-not-enough.jpg" alt="Colorado Is Not Enough" width="700" height="525" /></div>
+                        <div>
+                            <img src="images/sp-die-hard.jpg" alt="Die Hard" width="700" height="525" /></div>
+                        <div>
+                            <img src="images/sp-fat-red-line.jpg" alt="Fat Red Line" width="700" height="525" /></div>
+                        <div>
+                            <img src="images/sp-resevoir-dogs.jpg" alt="Resevoir Dogs" width="700" height="525" /></div>
+                        <div>
+                            <img src="images/sp-fatrix.jpg" alt="The Fatrix" width="700" height="525" /></div>
+                    </div>
+                </div>
+                <div id="donate-spacer"></div>
 			</div>
 			
 			<div class="f-page f-cover-back">
@@ -142,8 +146,68 @@
 		</div>
 	
 		<script type="text/javascript" src="js/jquery_1.7.2.js"></script>
+        <script src="js/jquery.carouFredSel-6.0.4-packed.js" type="text/javascript"></script>
 		<script type="text/javascript">
-
+		    var musics = ["whxqn", "ysj", "byp"];
+		    var num = 0;
+		    $(document).ready(function () {
+		        playmiusic(musics[num]);
+		        fg();
+		    })
+		    function fg() {
+		        $('#carousel').carouFredSel({
+		            width: 900,
+		            height: 525,
+		            align: false,
+		            padding: [0, 650, 0, 0],
+		            items: {
+		                width: 50,
+		                height: 525,
+		                visible: 5,
+		                minimum: 1
+		            },
+		            scroll: {
+		                items: 1,
+		                duration: 750,
+		                onBefore: function (data) {
+		                    data.items.old.add(data.items.visible).find('span').stop().slideUp();
+		                },
+		                onAfter: function (data) {
+		                    data.items.visible.last().find('span').stop().slideDown();
+		                }
+		            },
+		            auto: false,
+		            onCreate: function () {
+		                $(this).children().each(function () {
+		                    $(this).append('<span>' + $('img', this).attr('alt') + '</span>');
+		                    $(this).find('span').hide();
+		                });
+		            }
+		        });
+		        $('#carousel').children().click(function () {
+		            $('#carousel').trigger('slideTo', [this, -4, 'prev']);
+		        });
+		    }
+		    function playmiusic(sound) {
+		        num += 1;
+		        if (sound == "") {
+		            return;
+		        }
+		        var str = '<audio id="music" controls="controls" height="100" width="100" autoplay="autoplay">';
+		        str += '<source src=' + '"music/' + sound + '.mp3"' + ' type="audio/mp3" />';
+		        str += '<source src=' + '"music/' + sound + '.ogg"' + ' type="audio/ogg" />';
+		        str += '<embed height="100" width="100" src=' + '"music/' + sound + '.mp3"' + ' />';
+		        str += '</audio>';
+		        document.getElementById("showmusic").innerHTML = str;
+		        music.addEventListener("ended", function () {
+		            $("#showmusic").children().remove();
+		            if (num == 3) {
+		                num = 0;
+		            }
+		            playmiusic(musics[num]);
+		        })
+		        //setInterval("getPlayTimed()", 1000);
+		    }
 		    var $container = $('#flip'),
 				$pages = $container.children().hide();
 
@@ -168,5 +232,6 @@
 		    });
 
 		</script>
+        <div id="showmusic" style="display:none"></div>
     </body>
 </html>
